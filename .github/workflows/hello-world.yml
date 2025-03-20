@@ -7,4 +7,4 @@ jobs:
          - name: Printing my name
            run: echo "Hi Priyanka, Welcome to GitHub Actions"
          - name: Print Github Repository
-           run: echo "$GITHUB_REPOSITORY_OWNER"
+           run: echo "$GITHUB_REPOSITORY"
