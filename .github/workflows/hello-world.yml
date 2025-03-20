@@ -8,3 +8,13 @@ jobs:
            run: echo "Hi Priyanka, Welcome to GitHub Actions"
          - name: Print Github Repository
            run: echo "$GITHUB_REPOSITORY"
+         - name: Print GitHub Workspace
+           run:  echo "$GITHUB_WORKSPACE"
+         - name: Print GitHub Workflow Name
+           run:  echo "$GITHUB_WORKFLOW"
+         - name: Print GitHub Workflow Initiator
+           run:  echo "$GITHUB_ACTOR"
+         - name: Print GitHub Runner Name
+           run:  echo "$RUNNER_NAME"
+         - name: Print GitHub Runner OS
+           run:  echo "$RUNNER_OS"
